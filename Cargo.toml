@@ -1,0 +1,12 @@
+[package]
+name = "quine"
+version = "0.1.0"
+authors = ["tb13"]
+edition = "2018"
+
+[lib]
+crate_type = ["proc-macro"]
+
+[dependencies]
+quote = "0.6.11"
+
